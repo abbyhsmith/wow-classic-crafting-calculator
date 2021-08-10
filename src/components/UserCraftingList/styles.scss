@@ -1,0 +1,41 @@
+.userCraftingList {
+	font-size: 1.6em;
+	font-weight: 300;
+	background-color: var(--darkgrey);
+	margin: 20px auto;
+	width: 850px;
+	padding: 10px 30px;
+}
+
+.userCraftItem {
+	display: grid;
+	grid-template-columns: 2fr 5fr;
+	grid-gap: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid var(--lightgrey);
+}
+
+.materialTotals {
+	display: grid;
+	grid-template-columns: 2fr 5fr;
+	grid-gap: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.userCraftItemMaterials {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+}
+
+.userItemQuantityNumber {
+	color: #EE6B6B;
+	font-weight: 600;
+}
+
+.itemMaterialQuantityNumber {
+	color: #6B9BEE;
+	font-weight: 600;
+}

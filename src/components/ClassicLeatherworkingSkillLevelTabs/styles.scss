@@ -1,0 +1,17 @@
+.classicLeatherworkingSkillLevelTabs {
+	font-size: .5em;
+	width: 850px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: -30px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	button {
+		width: 100%;
+		padding: 20px 0;
+		background-color: #111111;
+		&:hover {
+			background-color: #222222;
+		}
+	}
+}

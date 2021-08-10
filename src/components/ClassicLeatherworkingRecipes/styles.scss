@@ -1,0 +1,26 @@
+.allClassicLeatherworkingRecipes {
+	font-size: .6em;
+}
+
+.titleRow, .classicLeatherworkingCraftRow {
+	display: grid;
+	grid-template-columns: 5fr 6fr 2fr 3fr 3fr 2fr;
+	grid-gap: 20px;
+	border-bottom: 2px solid var(--lightgrey);
+}
+
+.craftSkill {
+	grid-column: 5 / span 1;
+}
+
+.titleRow {
+	padding-bottom: 10px;
+}
+
+.classicLeatherworkingCraftRow {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	&:last-child {
+		border-bottom: 0;
+	}
+}
